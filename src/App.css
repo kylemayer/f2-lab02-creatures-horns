@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +39,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1 {
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
