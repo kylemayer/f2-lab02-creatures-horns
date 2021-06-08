@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+body {
+  background-image: url(trees.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +50,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  margin-top: 50px;
+}
+
+img {
+  width: 125px;
+  height: 125px;
+}
+
+.creature-section {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 10px;
+  justify-content: center;
+
+}
+
+.horned-creature {
+  width: 250px;
+  height: 300px;
+  margin:20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow:
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+select {
+  border-radius: 10px;
 }
