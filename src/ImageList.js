@@ -5,11 +5,18 @@ import ImageItem from './ImageItem.js';
 export default class ImageList extends Component {
     state = {
         keyFilter:'',
+        hornFilter:''
     }
 
-handleChange = (e) => {
+handleChangeKey = (e) => {
     this.setState({
         keyFilter: e.target.value,
+    })
+}
+
+handleChangeHorn = (e) => {
+    this.setState({
+        hornFilter: e.target.value,
     })
 }
 
@@ -19,11 +26,16 @@ handleChange = (e) => {
             if (creature.keyword === this.state.keyFilter) return true;
             return false;
         });
+        const hornCreatures = keyCreatures.filter((creature) => {
+            if (!this.state.hornFilter) return true;
+            if (+creature.horns === +this.state.hornFilter) return true;
+            return false;
+        });
 
         return (
             <div>
-                <span>Filter by species: </span>
-                <select onChange={this.handleChange}>
+                <label>Filter by species: <span></span>
+                <select onChange={this.handleChangeKey}>
                     <option value=''>Show All</option>
                     <option value='rhino'>Rhino</option>
                     <option value='narwhal'>Narhwal</option>
@@ -37,14 +49,23 @@ handleChange = (e) => {
                     <option value='lizard'>Lizard</option>
                     <option value='dragon'>Dragon</option>
                 </select>
+                </label>
+                <label> or by # of horns: <select onChange={this.handleChangeHorn} >
+                    <option value=''>Show All</option>
+                    <option value='1'>One</option>
+                    <option value='2'>Two</option>
+                    <option value='3'>Three</option>
+                    <option value='100'>One Hundred</option>
+                </select>
+                </label>
                 <div className="creature-section">
                     {
-                        keyCreatures.map(creature =>
+                        hornCreatures.map(creature =>
                             <ImageItem
                                 url={creature.url}
                                 title={creature.title}
                                 description={creature.description}
-                                keyword={creature.keyword} />)
+                                horns={creature.horns} />)
                     }
                 </div>
             </div>

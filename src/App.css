@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 
 body {
-  background-color: rosybrown;
+  background-image: url(trees.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,7 +55,6 @@ body {
 .App h1 {
   font-family: 'ZCOOL KuaiLe', cursive;
   margin-top: 50px;
-  color: white;
 }
 
 img {
@@ -70,12 +69,22 @@ img {
   margin: 15px;
   padding: 10px;
   justify-content: center;
+
 }
 
 .horned-creature {
   width: 250px;
-  height: 275px;
+  height: 300px;
   margin:20px;
   padding: 10px;
   background-color: white;
+  border-radius: 20px;
+  box-shadow:
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+select {
+  border-radius: 10px;
 }

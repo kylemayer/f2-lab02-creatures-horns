@@ -57,14 +57,14 @@ const images = [
     },
     {
     url: "https://ae01.alicdn.com/kf/HTB18GwSQVXXXXaZaXXXq6xXFXXXh/Animal-Cosplay-Costume-Narwhal-Onesie-Mens-Womens-Cartoon-Whale-Pajamas.jpg",
-    title: "Narwhal costume",
+    title: "Narwhal Costume",
     description: "A woman wearing a blue narwhal costume",
     keyword: "narwhal",
     horns: 1
     },
     {
     url: "https://www.shopmascot.com/image/cache/mascotnew/new196-800x800.jpg",
-    title: "Rhino costume",
+    title: "Rhino Costume",
     description: "Mascots have to get their costumes somewhere",
     keyword: "rhino",
     horns: 2
@@ -85,34 +85,34 @@ const images = [
     },
     {
     url: "http://www.zooborns.com/.a/6a010535647bf3970b0223c84d5959200c-800wi",
-    title: "Baby markhor",
+    title: "Baby Markhor",
     description: "Even the babies are adorable",
     keyword: "markhor",
     horns: 2
     },
     {
-    url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg",
+    url: "https://www.torontozoo.com/img/1200/20190417020626044MouflonDSC1705.jpg",
     title: "Mouflon",
     description: "Those horns though",
     keyword: "mouflon",
     horns: 2
     },
     {
-    url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg",
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Addax_%28Addax_nasomaculatus%29_young_adult_head.jpg/399px-Addax_%28Addax_nasomaculatus%29_young_adult_head.jpg",
     title: "Addax",
     description: "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
     keyword: "addax",
     horns: 2
     },
     {
-    url: "https://cbsnews3.cbsistatic.com/hub/i/r/2013/03/05/5b414225-a645-11e2-a3f0-029118418759/thumbnail/620x350/2d4cf24685b45c22912e64d2004fec8d/Baby_Mouflon_Wild_Sheep.jpg",
-    title: "Baby mouflon",
+    url: "https://static.themoscowtimes.com/image/article_1360/35/3e83feeaeeea4a238d518ca6a5a02880.jpg",
+    title: "Baby Mouflon",
     description: "The cuteness that is a baby mouflon asleep",
     keyword: "mouflon",
     horns: 2
     },
     {
-    url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg",
+    url: "http://www.chameleoncaremanual.com/images/jackson-chameleon.jpg",
     title: "Happy Jackson's Chameleon",
     description: "These are really common in Hawaii",
     keyword: "chameleon",

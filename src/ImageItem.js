@@ -8,7 +8,7 @@ export default class ImageItem extends Component {
                 </div>
                 <h3>{this.props.title}</h3>
                 <span>{this.props.description}</span>
-
+                <p># of Horns: {this.props.horns}</p>
             </div>
         )
     }
